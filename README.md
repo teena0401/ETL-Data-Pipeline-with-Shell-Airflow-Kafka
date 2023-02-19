@@ -5,14 +5,14 @@ In this final assignment module, you will apply your newly gained knowledge to e
 You will explore building these ETL pipelines using real-world scenarios. You will extract, transform, and load data into a CSV file. You will also create a topic named “toll” in Apache Kafka, download and customize a streaming data consumer, as well as verifying that streaming data has been collected in the database table.
 
 Objectives:
-Extract data from CSV, TSV, and fixed width files
-Transform extracted data
-Load transformed data into the staging area.
-Submit, unpause, and monitor a DAG.
-Create a topic in Kafka
-Download and customize a streaming data consumer
-Verify that streaming data has been collected in a database table
-Evaluate your peers’ code and output using the provided rubric and grading scheme.
+- Extract data from CSV, TSV, and fixed width files
+- Transform extracted data
+- Load transformed data into the staging area
+- Submit, unpause, and monitor a DAG
+- Create a topic in Kafka
+- Download and customize a streaming data consumer
+- Verify that streaming data has been collected in a database table
+- Evaluate your peers’ code and output using the provided rubric and grading scheme
 
 ## 1.0: Build an ETL Pipeline using Airflow 
 
@@ -25,28 +25,49 @@ steps:
 
 ### 1.1: Prepare the lab environment 
 #### 1.1.1: Start Apache Airflow
+<img src="https://imgur.com/gMNUbea.png">
 
 ### 1.2: Create a DAG
 #### 1.2.1: Define DAG arguments
+<img src="https://imgur.com/sx8Eray.png">
+
 #### 1.2.2: Define the DAG 
+<img src="https://imgur.com/uFLq0ys.png"> 
+
 #### 1.2.3: Create a task to unzip data 
+<img src="https://imgur.com/8u3UFck.png">  
+
 #### 1.2.4: Create a task to extract data from csv file 
+<img src="https://imgur.com/rsjydO7.png">  
+
 #### 1.2.5: Create a task to extract data from tsv file 
-#### 1.2.6: Create a task to extract data from fixed width file 
+<img src="https://imgur.com/7tiYp3F.png">  
+
+#### 1.2.6: Create a task to extract data from fixed width file  
+<img src="https://imgur.com/awSt9Q9.png">  
+
 #### 1.2.7: Create a task to consolidate data extracted from previous tasks
-#### 1.2.8: Transform and load the data 
+<img src="https://imgur.com/Vtwmd6q.png">  
+
+#### 1.2.8: Transform and load the data
+<img src="https://imgur.com/I8IvmQ5.png">   
+
 #### 1.2.9: Define the task pipeline 
+<img src="https://imgur.com/sFi2JHS.png">
 
 ### 1.3: Getting the DAG operational 
 #### 1.3.1: Submit the DAG 
+<img src="https://imgur.com/60Ojidc.png">  
+
 #### 1.3.2: Unpause the DAG
-#### 1.3.3: Monitor the DAG 
+#### 1.3.3: Monitor the DAG  
+<img src="https://imgur.com/cHGC9Xo.png">
 
 ##
 
 ## 2.0:Build a Streaming ETL Pipeline using Kafka 
 
-steps:
+Steps:
 - start a MySQL database server
 - create a table to hold the toll data 
 - start Kafka server 
